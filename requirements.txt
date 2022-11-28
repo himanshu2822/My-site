@@ -10,4 +10,3 @@ pyngrok==5.1.0
 pyparsing==2.4.7
 pypng==0.20220715.0
 python-gnupg==0.4.8
-virtualenv==20.13.0+ds
