@@ -1,0 +1,80 @@
+<html lang="en-US"><head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="Himanshu Sharma">
+  <meta name="Description" content="Himanshu Industries">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1026/1026658.png" type="image/icon type">
+  <title>Welcome User</title>
+  <style>
+    body {
+      background-image: url('/static/wall3.jpg');
+      background-position: center;
+      background-size: cover;
+      }
+   </style>   
+
+  <style>
+    #footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 100px;
+    background: transparent;
+    }
+  </style>
+  <style>
+    .center {
+      width: auto;
+      border: 5px solid black;
+      border-radius: 20px;
+      padding: 50px;
+    } 
+    </style>
+    <style>
+      .imageContainer {
+       width:50px; 
+       height:50px; 
+       background-image: url(/static/index.png);
+       }
+
+    </style>  
+    <style>
+    .center {
+      width: auto;
+      border: 5px solid gray;
+      border-radius: 20px;
+      padding: 35px;
+      background-color: transparent;
+      text-align: left;
+    } 
+    </style>
+
+</head>
+<body>
+  <header>
+    <div style="font-size: 15px;">
+    <h1 style="color: red">Dear <span style="color: yellow" >{{ name }}</span>,Welcome to <span style="color: paleturquoise" >Our Portal</span></h1><br>
+    </div>
+    <h2 style="color: whitesmoke">Personal Info.</h2>
+  <div class="center">
+    <p style="color: whitesmoke"><strong>--&gt;User Name : </strong><span style="color: yellow" >{{ name }}</span></p>
+    <p style="color: whitesmoke"><strong>--&gt;Address : </strong><span style="color: yellow" >{{ add }}</span></p>
+    <p style="color: whitesmoke"><strong>--&gt;Contact Number : </strong><span style="color: yellow" >{{ num }}</span></p>
+  </div>
+  
+    <br><h2 style="color: black">Make Order</h2>
+    <div class="center">
+    <p style="color: whitesmoke"><strong>--&gt; Please click <a href="/order" target="_blank">HERE</a> to make order.</strong></p>
+  </div>
+  
+    <br><h2 style="color: black">Contact Us</h2>
+    <div class="center">
+    <p style="color: whitesmoke"><strong>--&gt; Please click <a href="/contact" target="_blank">HERE</a> Connect to us.</strong></p>
+    
+  </div>
+  </div>
+  </header>    
+
+</body></html>
